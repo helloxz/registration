@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta charset = "UTF-8" />
+<title>{$title}</title>
+</head>
+<body>
+	<form action = "" method = "post" name = "queryform">
+		<input type = "email" name = "mail" />
+		<input type = "submit" name = "sub" value = "查询" />
+	</form>
+	<table>
+		<tr>
+			<td>姓名：</td>
+			<td>班级：</td>
+			<td>邮箱：</td>
+			<td>状态：</td>
+		</tr>
+		<tr>
+			<td>{$result['u_name']}</td>
+			<td>{$result['u_class']}</td>
+			<td>{$result['u_email']}</td>
+			<td>成功</td>
+		</tr>
+	</table>
+</body>
+</html>

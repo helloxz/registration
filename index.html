@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset = "UTF-8" />
+<link rel = "stylesheet" href = "./css/style.css" type = "text/css" />
+<title>网页设计大赛在线报名</title>
+</head>
+<body>
+<form method = "post" name = "baomin" action = "receive.php">
+	<div id = "mytable">
+	<table >
+		<tr>
+			<td width = "100">姓 名：</td>
+			<td><input type = "text" name = "name" /></td>
+		</tr>
+		<tr>
+			<td>班 级：</td>
+			<td><input type = "text" name = "class" /></td>
+		</tr>
+		<tr>
+			<td>联系电话：</td>
+			<td><input type = "text" name = "tel" /></td>
+		</tr>
+		<tr>
+			<td>E-mail：</td>
+			<td><input type = "email" name = "mail" /></td>
+		</tr>
+		<tr>
+			<td>Q Q号：</td>
+			<td><input type = "text" name = "qq" /></td>
+		</tr>
+		<!--
+		<tr>
+			<td>验证码：</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+			<input type = "submit" name = "sub" value = "提 交" class = "button" />&nbsp;&nbsp;&nbsp;
+			<input type = "reset" name = "re" value = "重 写" class = "button" />
+			</td>
+		</tr>
+		-->
+	</table>
+	
+	<div class = "other">
+		<tr>
+			其它说明：
+		</tr>
+		<tr>
+			<div id = ""><textarea cols = "60" rows = "" valign="top" name = "other"></textarea></div>
+		</tr>
+			<p>验证码：<input type = "text" name = "check" style = "width:80px;" /></p>
+		<tr>
+			<td></td>
+			<td>
+			<input type = "submit" name = "sub" value = "提 交" class = "button" />&nbsp;&nbsp;&nbsp;
+			<input type = "reset" name = "re" value = "清 空" class = "button" />
+			</td>
+		</tr>
+	</div>
+	</div>
+</form>
+</body>
+</html>
