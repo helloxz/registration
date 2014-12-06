@@ -22,10 +22,10 @@
 	##########################################
 	$smtpserver = "smtp.exmail.qq.com";//SMTP服务器
 	$smtpserverport = 25;//SMTP服务器端口
-	$smtpusermail = "service@xiaoz.me";//SMTP服务器的用户邮箱
+	$smtpusermail = "";//SMTP服务器的用户邮箱
 	$smtpemailto = $mail;//发送给谁
-	$smtpuser = "service@xiaoz.me";//SMTP服务器的用户帐号
-	$smtppass = "xiaoz1993.";//SMTP服务器的用户密码
+	$smtpuser = "";//SMTP服务器的用户帐号
+	$smtppass = "";//SMTP服务器的用户密码
 	$mailsubject = '网页设计大赛报名成功';//邮件主题
 	$mailbody = '亲爱的'.$name.'感谢您参加计科系网页设计大赛！';//邮件内容
 	$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
